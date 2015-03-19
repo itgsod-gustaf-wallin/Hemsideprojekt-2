@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+
+}
+
+
+#container1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+
+}
+
+
+#container2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#container3 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#Nyheter {
+    background-color: darkblue;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#Matsedel {
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#Information {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#Faktiskt_Skolarbete {
+    background-color: darkred;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#VSRAGA_VKTOAMHUD {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+
+}
