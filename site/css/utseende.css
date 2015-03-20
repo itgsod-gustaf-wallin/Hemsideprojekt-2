@@ -1,8 +1,12 @@
 body {
-    background-color: black;
+    background-color: #383838;
 
 }
 
+h1 {
+    color: #FFCC00;
+
+}
 
 #container1 {
     height: 100px;
@@ -21,6 +25,15 @@ body {
 
 
 #container3 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+    margin-right: 50%;
+
+}
+
+#tabbraden {
     background-color: red;
     height: 100px;
     width: 100px;
