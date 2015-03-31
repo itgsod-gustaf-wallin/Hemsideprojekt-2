@@ -8,15 +8,45 @@ h1 {
 
 }
 
-#container1 {
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
+
+.loga {
+    width: 100%;
+    position: relative;
 
 }
 
 
-#container2 {
+.tabbraden-body .float-left {
+    width: 20%;
+    height: 50px;
+    float: left;
+    background: #FFCC00;
+    margin-left: auto;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 0px;
+
+}
+
+
+.tabbraden-body .float-left span {
+    background: #FFCC00;
+
+}
+
+
+.tabbraden-body .tabbraden {
+    background-color: #383838;
+    height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+
+}
+
+
+.container1 {
     background-color: blue;
     height: 100px;
     width: 100px;
@@ -24,16 +54,7 @@ h1 {
 }
 
 
-#container3 {
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    margin-left: 50%;
-    margin-right: 50%;
-
-}
-
-#tabbraden {
+.container2 {
     background-color: red;
     height: 100px;
     width: 100px;
@@ -41,41 +62,36 @@ h1 {
 }
 
 
-#Nyheter {
-    background-color: darkblue;
+.container3 {
+    background-color: yellow;
     height: 100px;
     width: 100px;
 
 }
 
 
-#Matsedel {
-    background-color: orangered;
-    height: 100px;
-    width: 100px;
-
+.box-left-mini{
+    float:left;
+    background-color: yellow;
+    width:292px;
+    height:141px;
 }
 
-
-#Information {
-    background-color: green;
-    height: 100px;
-    width: 100px;
-
+.box-left-mini .front {
+    display: block;
+    z-index: 5;
+    position: relative;
+}
+.box-left-mini .front span {
+    background: green;
 }
 
-
-#Faktiskt_Skolarbete {
-    background-color: darkred;
-    height: 100px;
-    width: 100px;
-
+.box-left-mini .behind_container {
+    background-color: red;
+    position: relative;
+    top: -5px;
 }
-
-
-#VSRAGA_VKTOAMHUD {
-    background-color: black;
-    height: 100px;
-    width: 100px;
-
+.box-left-mini .behind {
+    display: block;
+    z-index: 6;
 }
