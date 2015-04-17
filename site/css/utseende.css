@@ -17,14 +17,16 @@ h1 {
 
 
 .tabbraden-body .float-left {
-    width: 20%;
-    height: 50px;
+    width: 10%;
+    height: 40px;
     float: left;
     background: #FFCC00;
-    margin-left: auto;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 10px;
-    font-size: 25px;
-    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+
 
 }
 
@@ -36,12 +38,11 @@ h1 {
 
 
 .tabbraden-body .tabbraden {
-    background-color: #383838;
-    height: 50px;
+    background-color: #2E2916;
+    height: 60px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    top: 50px;
 
 }
 
@@ -49,7 +50,10 @@ h1 {
 .container1 {
     background-color: blue;
     height: 100px;
-    width: 100px;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -57,20 +61,26 @@ h1 {
 .container2 {
     background-color: red;
     height: 100px;
-    width: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
 .container3 {
     background-color: yellow;
-    height: 100px;
+    height: 200px;
     width: 100px;
+    float: right;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
-.box-left-mini{
+.box-left-mini {
     float:left;
     background-color: yellow;
     width:292px;
@@ -95,3 +105,18 @@ h1 {
     display: block;
     z-index: 6;
 }
+
+
+#leftFloat
+{
+    float: left;
+    width: 100px;
+}
+
+#rightFloat
+{
+    float: right;
+    width: 100px;
+}
+
+
