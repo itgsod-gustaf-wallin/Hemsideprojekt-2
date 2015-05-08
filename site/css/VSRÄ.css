@@ -9,13 +9,13 @@ div.clickable {
 div.clickable a {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    height: 50%;
+    top: 100px;
     left: 0;
     text-decoration: none;
     background-color: yellow;
     opacity: 0;
-    filter: alpha(opacity=100);
+    filter: alpha(opacity=1);
 }
 
 .tabbraden-body .loga {
@@ -74,7 +74,7 @@ div.clickable a {
 .tabbraden-body .tabbraden {
     background-color: #FFE479;
     height: 100px;
-    width: 98.69%;
+    width: 100%;
     margin-top: -60px;
     margin-bottom: auto;
     padding-right: 7px;
@@ -86,121 +86,12 @@ div.clickable a {
 }
 
 .tabbraden-body .banner {
-    height: 100%;
-    width: 100%;
-    background: green;
+    height: 10%;
+    width: 10%;
+    background: inherit;
     z-index: 0;
     margin-bottom: -10px;
 }
-
-
-
-.ruta1 {
-    background-color: #FFE479;
-    height: 500px;
-    width: 70%;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 0px;
-    float: left;
-}
-
-.ruta1 .text11 {
-    background-color: #CCB761;
-    height: 200px;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    text-align: left;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
-
-}
-
-.ruta2 {
-    background-color: #FFE479;
-    height: 200px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
-    float: right
-}
-
-.ruta2 .text22 {
-    background-color: #CCB761;
-    height: 200px;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    text-align: left;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
-}
-
-.ruta3 {
-    background-color: #FFE479;
-    height: 200px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
-    float: left;
-}
-
-.ruta3 .text33 {
-    background-color: #CCB761;
-    height: 200px;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    text-align: left;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
-}
-
-.ruta4 {
-    background-color: #FFE479;
-    height: 200px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
-    float: right;
-}
-
-.ruta4 .text44 {
-    background-color: #CCB761;
-    height: 200px;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    text-align: left;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
-}
-
-
 
 /*.tabbraden-body .backsida {*/
 /*background-color: #2E2916;*/
@@ -233,7 +124,75 @@ div.clickable a {
     border-style: solid;
     border-color: #E70000;
 }
-a
+
+.ruta1 {
+    background-color: #FFE479;
+    height: 1700px;
+    width: 80%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 20px 1px #CCB761;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.ruta1 .text11 {
+    background-color: #CCB761;
+    height: 375px;
+    width: 95%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+
+}
+
+.ruta1 .text22 {
+    background-color: #CCB761;
+    height: 375px;
+    width: 95%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+}
+
+.ruta1 .text33 {
+    background-color: #CCB761;
+    height: 375px;
+    width: 95%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+}
+
+.ruta1 .text44 {
+    background-color: #CCB761;
+    height: 375px;
+    width: 95%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+}
+
 .container3 {
     background-color: yellow;
     height: 200px;
@@ -274,7 +233,6 @@ a
 }
 
 body {
-    background-color: #2E2916;
 }
 
 .leftFloat {
@@ -289,3 +247,7 @@ body {
     width: 100px;
     background-color: white;
 }
+
+/*.img {*/
+
+/*}*/
