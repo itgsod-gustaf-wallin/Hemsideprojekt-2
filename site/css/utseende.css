@@ -20,7 +20,9 @@ div.clickable a {
 
 .tabbraden-body .loga {
     width: 100%;
-    margin-top: -300px;
+    margin-top: -200px;
+    margin-right:;
+    margin-left: 80%;
 }
 
 .tabbraden-body .content {
@@ -42,7 +44,7 @@ div.clickable a {
     background: #FFCC00;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: -30px;
+    margin-top: 105px;
     margin-bottom: auto;
     border-radius: 20px;
     font-size: 22px;
@@ -74,7 +76,7 @@ div.clickable a {
     background-color: #FFE479;
     height: 100px;
     width: 98.69%;
-    margin-top: -60px;
+    margin-top: 75px;
     margin-bottom: auto;
     padding-right: 7px;
     padding-top: 25px;
@@ -91,18 +93,6 @@ div.clickable a {
     z-index: 0;
     margin-bottom: -10px;
 }
-
-/*.tabbraden-body .backsida {*/
-/*background-color: #2E2916;*/
-/*height: 1200px;*/
-/*width: 98%;*/
-/*position: absolute;*/
-/*z-index: -2;*/
-/*margin-top: -5px;*/
-/*border: 5px;*/
-/*border-style: groove;*/
-/*border-color: yellow;*/
-/*}*/
 
 .add_to_cart:hover {
     background-color: #FF9933;
@@ -147,9 +137,9 @@ div.clickable a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    text-align: left;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
+    color: blue;
 
 }
 
@@ -161,7 +151,6 @@ div.clickable a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    text-align: center;
     border-radius: 40px;
 }
 
