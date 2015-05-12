@@ -1,5 +1,15 @@
 h1 {
-    color: #FFCC00;
+    color: black;
+}
+
+h3 {
+    color: black
+
+}
+
+h4 {
+    color: black;
+
 }
 
 div.clickable {
@@ -20,15 +30,17 @@ div.clickable a {
 
 .tabbraden-body .loga {
     width: 100%;
-    margin-top: -300px;
+    margin-top: -200px;
+    margin-right:;
+    margin-left: 80%;
 }
 
 .tabbraden-body .content {
     background: #383838;
-    height: 1500px;
+    height: 2900px;
     width: 85%;
     margin-top: 0%;
-    margin-bottom: -1500px;
+    margin-bottom: -2600px;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
@@ -42,7 +54,7 @@ div.clickable a {
     background: #FFCC00;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: -30px;
+    margin-top: 105px;
     margin-bottom: auto;
     border-radius: 20px;
     font-size: 22px;
@@ -74,7 +86,7 @@ div.clickable a {
     background-color: #FFE479;
     height: 100px;
     width: 98.69%;
-    margin-top: -60px;
+    margin-top: 75px;
     margin-bottom: auto;
     padding-right: 7px;
     padding-top: 25px;
@@ -126,7 +138,7 @@ div.clickable a {
 
 .nyheter1 {
     background-color: #FFE479;
-    height: 500px;
+    height: 1900px;
     width: 70%;
     margin-top: 75px;
     margin-left: auto;
@@ -141,39 +153,30 @@ div.clickable a {
 
 .nyheter1 .nyhet11 {
     background-color: #CCB761;
-    height: 200px;
+    height: 95%;
     width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: auto;
     text-align: left;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
 
 }
 
-.nyheter1 .nyhet12 {
+.nyheter1 .nyhet11 .nyhet12 {
     background-color: #CCB761;
-    height: 200px;
+    height: 90%;
     width: 90%;
-    margin-top: auto;
+    margin-top: ;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
-    text-align: center;
+    margin-bottom: auto;
+    text-align: left;
+    box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
-}
 
-.nyheter2 {
-    background-color: #FFE479;
-    height: 200px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
 }
 
 .container3 {
