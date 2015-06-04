@@ -21,7 +21,7 @@ div.clickable a {
 .tabbraden-body .loga {
     width: 100%;
     margin-top: -200px;
-    margin-right:;
+    margin-right: auto;
     margin-left: 80%;
 }
 
@@ -144,6 +144,20 @@ div.clickable a {
 
 }
 
+.ruta1 .text11 img {
+    background-color: #CCB761;
+    height: 375px;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+    float: left;
+}
+
 .ruta1 .text22 {
     background-color: #CCB761;
     height: 375px;
@@ -158,6 +172,22 @@ div.clickable a {
     float: right;
 }
 
+
+.ruta1 .text22 p {
+    background-color: #CCB761;
+    height: 375px;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+    float: left;
+}
+
+
 .ruta1 .text33 {
     background-color: #CCB761;
     height: 375px;
@@ -170,8 +200,23 @@ div.clickable a {
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
     float: left;
-    font-family:;
 }
+
+
+.ruta1 .text33 p {
+    background-color: #CCB761;
+    height: 375px;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+    float: left;
+}
+
 
 .ruta1 .text44 {
     background-color: #CCB761;
@@ -187,61 +232,21 @@ div.clickable a {
     float: right;
 }
 
-.container3 {
-    background-color: yellow;
-    height: 200px;
-    width: 100px;
-    float: right;
-    margin-top: -100px;
+
+.ruta1 .text44 p {
+    background-color: #CCB761;
+    height: 375px;
+    width: 100%;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
-}
-
-.box-left-mini {
     float: left;
-    background-color: yellow;
-    width: 292px;
-    height: 141px;
-}
-
-.box-left-mini .front {
-    display: block;
-    z-index: 5;
-    position: relative;
-}
-
-.box-left-mini .front span {
-    background: green;
-}
-
-.box-left-mini .behind_container {
-    background-color: red;
-    position: relative;
-    top: -5px;
-}
-
-.box-left-mini .behind {
-    display: block;
-    z-index: 6;
 }
 
 body {
+    background-color: #2E2916;
 }
-
-.leftFloat {
-    float: left;
-    width: 100px;
-    background-color: black;
-    color: white;
-}
-
-.rightFloat {
-    float: right;
-    width: 100px;
-    background-color: white;
-}
-
-/*.img {*/
-
-/*}*/
