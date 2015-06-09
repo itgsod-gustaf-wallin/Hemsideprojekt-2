@@ -13,7 +13,7 @@ div.clickable a {
     top: 100px;
     left: 0;
     text-decoration: none;
-    background-color: yellow;
+    background-color: #FFCC00;
     opacity: 0;
     filter: alpha(opacity=1);
 }
@@ -22,15 +22,15 @@ div.clickable a {
     width: 100%;
     margin-top: -200px;
     margin-right: auto;
-    margin-left: 80%;
+    margin-left: auto;
 }
 
 .tabbraden-body .content {
     background: #383838;
-    height: 1500px;
+    height: 1200px;
     width: 85%;
     margin-top: 0%;
-    margin-bottom: -1500px;
+    margin-bottom: -1200px;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
@@ -100,23 +100,9 @@ div.clickable a {
     color: #FFFFFF;
 }
 
-.add_to_cart {
-    cursor: pointer;
-    background-color: #EC5500;
-    display: block;
-    text-align: center;
-    margin-top: 8px;
-    width: 90px;
-    height: 31px;
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #E70000;
-}
-
 .nyheter1 {
     background-color: #FFE479;
-    height: 500px;
+    height: 575px;
     width: 70%;
     margin-top: 75px;
     margin-left: auto;
@@ -131,39 +117,79 @@ div.clickable a {
 
 .nyheter1 .nyhet11 {
     background-color: #CCB761;
-    height: 200px;
+    height: 500px;
     width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding-top: 25px;
     text-align: left;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
-
+    z-index: 1;
 }
 
-.nyheter1 .nyhet12 {
-    background-color: #CCB761;
-    height: 200px;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+.nyheter1 .nyhet11 .float-left {
+    width: 40%;
+    height: 40px;
+    background: #FFCC00;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: auto;
+    border-radius: 20px;
+    font-size: 22px;
     text-align: center;
-    border-radius: 40px;
+    text-shadow: 3px 3px darkgoldenrod;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    box-shadow: 0px 10px 1px darkgoldenrod;
+    display: block;
+    text-decoration: none;
+    z-index: -1;
 }
 
-.nyheter2 {
-    background-color: #FFE479;
-    height: 200px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
+.nyheter1 .nyhet11 .float-left span {
+    background: #FFCC00;
+    position: inherit;
+    z-index: 1;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: black;
+}
+
+.nyheter1 .nyhet11 .float-right {
+    width: 40%;
+    height: 40px;
+    background: lightgray;
+    margin-left: 55%;
+    margin-top: -280px;
+    margin-bottom: auto;
+    border-radius: 2.5px;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    box-shadow: 0px 10px 1px darkgoldenrod;
+    text-decoration: none;
+    z-index: 100;
+    color: gray;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.nyheter1 .nyhet11 .float-right span {
+    position: inherit;
+    z-index: 1;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    opacity: 1;
 }
 
 body {

@@ -3,12 +3,14 @@ h1 {
 }
 
 div.clickable {
-    position: relative;
+    height: inherit;
+    width: inherit;
+    position: inherit;
 }
 
 div.clickable a {
     position: absolute;
-    width: 100%;
+    width: inherit;
     height: 50%;
     top: 100px;
     left: 0;
@@ -22,7 +24,7 @@ div.clickable a {
     width: 100%;
     margin-top: -200px;
     margin-right: auto;
-    margin-left: 80%;
+    margin-left: auto;
 }
 
 .tabbraden-body .content {
@@ -94,29 +96,9 @@ div.clickable a {
     margin-bottom: -10px;
 }
 
-.add_to_cart:hover {
-    background-color: #FF9933;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.add_to_cart {
-    cursor: pointer;
-    background-color: #EC5500;
-    display: block;
-    text-align: center;
-    margin-top: 8px;
-    width: 90px;
-    height: 31px;
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #E70000;
-}
-
 .nyheter1 {
     background-color: #FFE479;
-    height: 500px;
+    height: 900px;
     width: 70%;
     margin-top: 75px;
     margin-left: auto;
@@ -124,46 +106,55 @@ div.clickable a {
     margin-bottom: 50px;
     border-radius: 40px;
     box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
     padding-bottom: 0px;
 }
 
 .nyheter1 .nyhet11 {
     background-color: #CCB761;
-    height: 200px;
+    height: 825px;
     width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    padding-top: 25px;
     text-align: left;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
 
 }
 
-.nyheter1 .nyhet12 {
-    background-color: #CCB761;
-    height: 200px;
-    width: 90%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+.nyheter1 .nyhet11 .float-left {
+    width: 40%;
+    height: 40px;
+    background: #FFCC00;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: auto;
+    border-radius: 20px;
+    font-size: 22px;
     text-align: center;
-    border-radius: 40px;
+    color: black;
+    text-shadow: 3px 3px darkgoldenrod;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    box-shadow: 0px 10px 1px darkgoldenrod;
+    display: block;
+    text-decoration: none;
+    z-index: -1;
 }
 
-.nyheter2 {
-    background-color: #FFE479;
-    height: 200px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    box-shadow: 5px 20px 1px #CCB761;
-    text-align: center;
+.nyheter1 .nyhet11 .float-left span {
+    background: #FFCC00;
+    position: inherit;
+    z-index: 1;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    opacity: 1;
 }
 
 body {

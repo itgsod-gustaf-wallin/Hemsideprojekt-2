@@ -27,10 +27,10 @@ div.clickable a {
 
 .tabbraden-body .content {
     background: #383838;
-    height: 1500px;
+    height: 2200px;
     width: 85%;
     margin-top: 0%;
-    margin-bottom: -1500px;
+    margin-bottom: -2200px;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
@@ -94,12 +94,12 @@ div.clickable a {
     margin-bottom: -10px;
 }
 
-.ruta1 {
+.nyheter1 {
     background-color: #FFE479;
-    height: 850px;
-    width: 80%;
+    height: 500px;
+    width: 75%;
     margin-top: 75px;
-    margin-left: auto;
+    margin-left: 150px;
     margin-right: auto;
     margin-bottom: 50px;
     border-radius: 40px;
@@ -107,119 +107,150 @@ div.clickable a {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 0px;
-}
-
-.ruta1 .text11 {
-    background-color: #CCB761;
-    height: 375px;
-    width: 40%;
-    margin-top: auto;
-    margin-left: 62.5px;
-    margin-right: auto;
-    margin-bottom: 50px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
     float: left;
-
 }
 
-.ruta1 .text11 img {
+.nyheter1 .nyhet11 {
     background-color: #CCB761;
-    height: 375px;
-    width: 100%;
+    height: 200px;
+    width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    text-align: center;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
-    float: left;
+    color: black;
+
 }
 
-.ruta1 .text22 {
+.nyheter1 .nyhet12 {
     background-color: #CCB761;
-    height: 375px;
-    width: 40%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: 62.5px;
-    margin-bottom: 50px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
-    float: right;
-}
-
-.ruta1 .text22 p {
-    background-color: #CCB761;
-    height: 375px;
-    width: 100%;
+    height: 200px;
+    width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
-    float: left;
 }
 
-.ruta1 .text33 {
-    background-color: #CCB761;
-    height: 375px;
-    width: 40%;
-    margin-top: 0px;
-    margin-left: 62.5px;
+
+.nyheter2 {
+    background-color: #FFE479;
+    height: 500px;
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 150px;
     margin-right: auto;
-    margin-bottom: 50px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #CCB761;
+    margin-bottom: auto;
     border-radius: 40px;
+    box-shadow: 5px 20px 1px #CCB761;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
     float: left;
 }
 
-.ruta1 .text33 p {
+
+.nyheter2 .nyhet11 {
     background-color: #CCB761;
-    height: 375px;
-    width: 100%;
+    height: 200px;
+    width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    text-align: center;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
-    float: left;
+    color: black;
+    font-size: 10px;
+
 }
 
-.ruta1 .text44 {
+.nyheter2 .nyhet12 {
     background-color: #CCB761;
-    height: 375px;
-    width: 40%;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: 62.5px;
-    margin-bottom: 50px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #CCB761;
-    border-radius: 40px;
-    float: right;
-}
-
-.ruta1 .text44 p {
-    background-color: #CCB761;
-    height: 375px;
-    width: 100%;
+    height: 200px;
+    width: 90%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    border-radius: 40px;
+}
+
+
+.nyheter3 {
+    background-color: #FFE479;
+    height: 500px;
+    width: 35%;
+    margin-top: 700px;
+    margin-left: 665px;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 40px;
+    box-shadow: 5px 20px 1px #CCB761;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+
+.nyheter3 .nyhet11 {
+    background-color: #CCB761;
+    height: 200px;
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     box-shadow: 1px 1px 20px #CCB761;
     border-radius: 40px;
+    color: black;
+
+}
+
+.nyheter3 .nyhet12 {
+    background-color: #CCB761;
+    height: 200px;
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+
+
+.nyheter4 {
+    background-color: #FFE479;
+    height: 250px;
+    width: 75%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 40px;
+    box-shadow: 5px 20px 1px #CCB761;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+
+.nyheter4 .nyhet11 {
+    background-color: #CCB761;
+    height: 200px;
+    width: 90%;
+    margin-top: auto;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 20px #CCB761;
+    border-radius: 40px;
+    color: black;
     float: left;
+
 }
 
 body {
